@@ -1,0 +1,27 @@
+.vendor_integration {
+	padding: 0px 30px;
+	.third_party_integration {
+		margin-bottom: 40px;
+		.checkbox_section {
+			margin-top: 20px;
+		}
+		.custom_checkbox {
+			:global {
+				.ant-checkbox-group-item {
+					display: block;
+					margin-right: 8px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+	.table {
+		margin-top: 20px;
+        margin-bottom: 20px;
+	}
+}
+
+.bold_text {
+	margin: 15px 0px;
+	font-size: 15px;
+}

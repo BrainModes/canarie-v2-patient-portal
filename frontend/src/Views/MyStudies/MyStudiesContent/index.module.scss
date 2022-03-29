@@ -1,0 +1,124 @@
+.container {
+	margin: 30px auto;
+}
+
+.imgContent {
+	max-width: 100%;
+}
+
+.my_studies_tabs {
+	position: relative;
+	.searchCard {
+		position: absolute;
+		top: 44px;
+		right: 24px;
+		left: 24px;
+		border-radius: 0px 0px 6px 6px;
+		box-shadow: 0px 1px 7px #0000001a;
+		opacity: 1;
+		.firstInputLine {
+			width: 100%;
+			display: flex;
+			.study_name {
+				flex: 1;
+				margin-right: 20px;
+			}
+			.study_create_time {
+				width: 200px;
+			}
+			:global {
+				.ant-input {
+					border-radius: 6px;
+				}
+				.ant-picker {
+					border-radius: 6px;
+				}
+			}
+		}
+		.secondInputLine {
+			.study_description {
+				:global {
+					.ant-input {
+						border-radius: 6px;
+					}
+					.ant-btn {
+						border-radius: 6px !important;
+						margin-right: 2%;
+					}
+				}
+			}
+		}
+		.form_btn {
+			margin-top: 20px;
+			float: right;
+			button {
+				border-radius: 6px;
+			}
+		}
+	}
+	.tab {
+		background-color: #fff;
+		border-radius: 6px;
+		//min-height: 600px;
+		.extra_content {
+			margin-right: 50px;
+			margin-top: 5px;
+			button {
+				border-radius: 6px;
+				margin-right: 10px;
+			}
+		}
+		:global {
+			.ant-tabs-nav {
+				padding: 0px 24px;
+				.ant-tabs-nav-wrap {
+					.ant-tabs-nav-list {
+						.ant-tabs-tab {
+							margin-right: 50px;
+						}
+					}
+				}
+			}
+			.ant-tabs-content-holder {
+				padding: 20px 50px 50px 50px;
+			}
+		}
+	}
+}
+
+.study_card {
+	display: flex;
+	align-items: center;
+	min-height: 79px;
+	min-width: 800px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 1px 7px #0000001a;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	.study_info {
+		padding: 10px;
+		min-width: 400px;
+		flex: 1;
+		.study_name {
+			color: #003262;
+			font-weight: bold;
+			font-size: 25px;
+			margin-bottom: 0px;
+		}
+		.study_description {
+			margin-bottom: 0px;
+			width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+	.study_tag {
+		width: 100px;
+		margin-top: 35px;
+		margin-right: 10px;
+	}
+}

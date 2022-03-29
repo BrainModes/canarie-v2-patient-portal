@@ -1,0 +1,219 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.imgContent {
+	width: 100%;
+}
+.custom_tabs {
+	:global {
+		.ant-tabs-bar {
+			margin-bottom: 0 !important;
+		}
+		.ant-tabs-tab {
+			margin-right: 66px !important;
+		}
+	}
+}
+
+.custom_general_info_form {
+	:global {
+		.ant-form-item-label {
+			padding-bottom: 4px !important;
+		}
+		.ant-form-item-label > label {
+			color: #818181 !important;
+		}
+		.ant-form-item {
+			margin-bottom: 14px !important;
+		}
+		.ant-form-item-control-input-content {
+		}
+
+		.ant-form-item-control-input-content {
+			input {
+				background: #ffffff 0% 0% no-repeat padding-box;
+				border: 1px solid #c3c6c8;
+				border-radius: 6px;
+			}
+
+			textarea {
+				background: #ffffff 0% 0% no-repeat padding-box;
+				border: 1px solid #c3c6c8;
+				border-radius: 6px;
+			}
+
+			.ant-select-selector {
+				background: #ffffff 0% 0% no-repeat padding-box;
+				border: 1px solid #c3c6c8;
+				border-radius: 6px;
+			}
+			.ant-tag {
+				text-align: left;
+				letter-spacing: 0px;
+				color: #595959;
+			}
+		}
+	}
+}
+.custom_select_tag {
+	:global {
+		.ant-select-selector {
+			> span:not(.ant-select-selection-search) {
+				overflow: hidden;
+				max-width: 100%;
+				.ant-tag {
+					overflow: hidden;
+					max-width: 100%;
+					text-overflow: ellipsis;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
+.manifest_table {
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	table-layout: fixed;
+	margin-top: 6px;
+	word-wrap: break-word;
+	:global {
+		td,
+		th {
+			padding: 8px 20px;
+			border: 1px solid #f0f0f0;
+		}
+		th {
+			color: rgba(0, 0, 0, 0.3);
+			/* background-color: rgba(233, 233, 233, 0.4); */
+			border-left: 0px none;
+			border-right: 0px none;
+		}
+		td {
+			vertical-align: top;
+			padding: 20px;
+			border-left: 0px none;
+			border-right: 0px none;
+			text-align: left;
+			letter-spacing: 0px;
+			color: #595959;
+		}
+		input {
+			border: 1px solid #c3c6c8;
+			border-radius: 6px;
+			opacity: 1;
+			text-align: left;
+			letter-spacing: 0px;
+			color: #595959;
+		}
+		.ant-select-selector {
+			border: 1px solid #c3c6c8 !important;
+			border-radius: 6px !important;
+			opacity: 1 !important;
+		}
+	}
+}
+
+.card_wrapper {
+	box-shadow: 0px 1px 9px #00000020;
+	border-radius: 6px !important;
+	letter-spacing: 0.4px;
+	max-width: 1540px;
+	margin: 0 auto !important;
+	:global {
+		.ant-card {
+			.ant-card-head {
+				padding: 0 18px;
+				color: #003262;
+				font-size: 14px;
+				font-weight: bold;
+				.ant-card-head-title {
+					padding: 10px 0;
+				}
+			}
+		}
+		.ant-card-body {
+			padding: 0px !important;
+		}
+	}
+}
+
+.button {
+	border-radius: 5px !important;
+	height: 26px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	font-size: 13px;
+}
+
+.iconTitle {
+	text-align: left !important;
+	letter-spacing: 0px !important;
+	color: #595959 !important;
+	margin-bottom: 0px;
+	margin-top: -6px;
+	font-size: 14px;
+}
+
+.iconP {
+	text-align: left !important;
+	letter-spacing: 0px !important;
+	color: #818181 !important;
+	font-style: italic;
+	margin-bottom: 5px;
+	margin-top: -1px;
+	font-size: 12px;
+}
+
+.manifestList {
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 0px 6px #0000001a;
+	border-radius: 8px;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-top: 11px;
+	:global {
+		b {
+			text-align: left;
+			letter-spacing: 0px;
+			color: #595959;
+		}
+
+		input {
+			background: #ffffff 0% 0% no-repeat padding-box;
+			border: 1px solid #c3c6c8;
+			border-radius: 6px;
+		}
+	}
+}
+
+.addManifestTable {
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0px 0px 6px #0000001a;
+}
+
+.menu {
+	:global {
+		.ant-select-selector {
+			border: 1px solid !important;
+			border-radius: 10px !important;
+			width: 210px !important;
+		}
+	}
+}
+
+.input {
+	border: 1px solid !important;
+	border-radius: 10px !important;
+	width: 200px !important;
+	margin-top: 10px;
+}
+
+.antInput:focus {
+	border: 1px solid red !important;
+	box-shadow: none !important;
+	width: 500px;
+}

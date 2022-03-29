@@ -1,0 +1,28 @@
+/node_modules
+/.pnp
+.pnp.js
+.vscode
+.DS_Store
+
+# virtual environment
+/backend/pilotenv
+
+# Byte-compiled / optimized / DLL static
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+venv/
+develop-eggs/
+dist/
+server/sdist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+

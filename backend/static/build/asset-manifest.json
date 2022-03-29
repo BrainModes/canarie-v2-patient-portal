@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.534dd6e4.chunk.css",
+    "main.js": "/static/js/main.b34eeaa4.chunk.js",
+    "main.js.map": "/static/js/main.b34eeaa4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b6c73981.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b6c73981.js.map",
+    "static/css/2.a7bca8fd.chunk.css": "/static/css/2.a7bca8fd.chunk.css",
+    "static/js/2.2b24522e.chunk.js": "/static/js/2.2b24522e.chunk.js",
+    "static/js/2.2b24522e.chunk.js.map": "/static/js/2.2b24522e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ed4575ecf761ca2f496617ded79caba.js": "/precache-manifest.9ed4575ecf761ca2f496617ded79caba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a7bca8fd.chunk.css.map": "/static/css/2.a7bca8fd.chunk.css.map",
+    "static/css/main.534dd6e4.chunk.css.map": "/static/css/main.534dd6e4.chunk.css.map",
+    "static/js/2.2b24522e.chunk.js.LICENSE.txt": "/static/js/2.2b24522e.chunk.js.LICENSE.txt",
+    "static/media/canarie-cover.jpeg": "/static/media/canarie-cover.7afac2c3.jpeg",
+    "static/media/getFetch.cjs": "/static/media/getFetch.013f0b90.cjs",
+    "static/media/index.module.scss": "/static/media/hero.7a009207.jpg",
+    "static/media/indoc-icon.png": "/static/media/indoc-icon.23a0df62.png",
+    "static/media/study_cover.jpg": "/static/media/study_cover.81377403.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6c73981.js",
+    "static/css/2.a7bca8fd.chunk.css",
+    "static/js/2.2b24522e.chunk.js",
+    "static/css/main.534dd6e4.chunk.css",
+    "static/js/main.b34eeaa4.chunk.js"
+  ]
+}

@@ -1,0 +1,4 @@
+username,firstname,lastname,email,role
+username,User,Surname,user@example.com,registered-user
+username,User,Surname,user@example.com,container-requester
+username,User,Surname,user@example.com,instance-admin

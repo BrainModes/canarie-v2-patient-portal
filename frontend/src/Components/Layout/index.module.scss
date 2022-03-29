@@ -1,0 +1,61 @@
+@import "../../Styles/includeMedia.scss";
+.sider {
+	position: relative;
+	left: 0;
+	transition: all 0s !important;
+	background-color: #003262 !important;
+}
+
+.content {
+	min-height: 980px;
+	.left-sider {
+		font-weight: 800;
+		font-size: 20px;
+		color: rgba(0, 0, 0, 0.85);
+	}
+	.left_circle_icon {
+		position: absolute;
+		left: 190px;
+		top: 750px;
+		cursor: pointer;
+		font-size: 20px;
+		border: 1px solid #1890FF;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		opacity: 1;
+		border-radius: 100%;
+	}
+	.right_circle_icon {
+		position: absolute;
+		left: 70px;
+		top: 750px;
+		cursor: pointer;
+		font-size: 20px;
+		border: 1px solid #1890FF;
+		background: #FFFFFF 0% 0% no-repeat padding-box;
+		opacity: 1;
+		border-radius: 100%;
+	}
+	:global {
+		.ant-layout-content {
+			margin-left: 0px !important;
+		}
+	}
+}
+
+//Header
+.login {
+	padding-right: 0;
+	@include media(">675px") {
+		float: right;
+	}
+}
+
+.header {
+	:global {
+		.ant-layout-header {
+			.ant-menu-overflow {
+				display: inherit;
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+#life_side_menu {
+    margin-top: 15px;
+	:global {
+		.ant-menu {
+			background-color: #003262;
+			border-right: 0px;
+			.ant-menu-item {
+                height: 50px;
+                display: flex;
+                align-items: center;
+				a {
+					display: flex;
+					align-items: center;
+					.anticon,
+					span {
+						color: #f0f0f0;
+					}
+				}
+			}
+			.ant-menu-item-selected {
+				a {
+					.anticon,
+					span {
+						color: #1890ff;
+					}
+				}
+			}
+		}
+	}
+}

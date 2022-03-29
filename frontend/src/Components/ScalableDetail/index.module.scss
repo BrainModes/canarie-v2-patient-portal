@@ -1,0 +1,107 @@
+.upperMenu {
+  :global {
+    background-color: #003262 !important;
+    position: fixed !important;
+    top: 120px;
+    width: 51px;
+    max-width: 51px;
+    min-width: 51px;
+    margin-top: 22px;
+    .ant-menu-item {
+      left: -14px !important;
+
+      .anticon {
+        color: #f0f0f0 !important;
+      }
+      &.ant-menu-item-selected {
+        background-color: transparent !important;
+        .anticon {
+          color: #ffffff !important;
+        }
+      }
+    }
+  }
+}
+
+.pageHeader {
+  :global {
+    .ant-page-header-heading {
+      align-items: flex-start;
+      margin-top: -7px;
+    }
+  }
+}
+
+.tab {
+  background-color: #ffffff;
+}
+
+.tab {
+  :global {
+    .ant-tabs-tab {
+      margin: 0px 80px 0px 0px !important;
+    }
+
+    .ant-tabs-nav {
+      margin-left: 26px;
+    }
+
+    .ant-table-wrapper {
+      margin-top: 0px !important;
+      padding: 0px 10px;
+    }
+  }
+}
+
+.ant-card-bordered {
+  :global {
+    .ant-card-body {
+      padding: 5px 0px !important;
+    }
+  }
+}
+
+.ant-layout {
+  margin-left: 0px !important;
+}
+
+.tablePanel {
+  :global {
+    .ant-collapse-content {
+      .ant-collapse-content-box {
+        padding: 0px !important;
+      }
+    }
+  }
+}
+
+.red_dot {
+  :global {
+    .ant-badge {
+      .ant-badge-status-error {
+        left: 5px;
+        height: 8px;
+        width: 8px;
+      }
+    }
+  }
+}
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}

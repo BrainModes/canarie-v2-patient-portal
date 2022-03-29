@@ -1,0 +1,182 @@
+{
+	"logout": "Logout successful",
+	"invitation": {
+		"patient": {
+			"success": "Invitation sent!",
+			"failed": "Unable to send invitation. Please ensure the user details entered are correct.",
+			"email": {
+				"required": "Please enter a valid email address",
+				"valid": "Please enter a valid email address. "
+			},
+			"question": {
+				"required": "Please enter a security question."
+			},
+			"answer": {
+				"required": "Please enter a security answer.",
+				"valid": "The security answer is incorrect, please try again."
+			},
+			"confirmAnswer": {
+				"required": "Please confirm the security answer.",
+				"valid": "The security answers entered do not match. Please try again."
+			},
+			"re-invite": {
+				"success": "Invitation sent successfully",
+				"failed": "Failed to resend invitation"
+			},
+			"cancel": {
+				"success": "Invitation revoked",
+				"failed": "Failed to cancel invitation"
+			},
+			"patientExist": {
+				"exist": "You have already registered for this study"
+			}
+		},
+		"researcher": {
+			"success": "Invitation sent!",
+			"failed": "Unable to send invitation, please check the user details and try again."
+		},
+		"bulk_invite": {
+			"problem": "Bulk invite failed, some users were not added.",
+			"success": "User invitations sent successfully!",
+			"file": {
+				"success": "File Upload: Successful",
+				"failed": "File Upload: Failed"
+			}
+		},
+		"invite": {
+			"success": "Invitation sent!",
+			"username": {
+				"required": "Please enter a username."
+			},
+			"firstName": {
+				"required": "Please enter a first name."
+			},
+			"lastName": {
+				"required": "Please enter a last name"
+			},
+			"email": {
+				"required": "Please enter a valid email address",
+				"valid": "Please enter a valid email address."
+			},
+			"role": {
+				"required": "Select a user role"
+			}
+		}
+	},
+	"users": {
+		"register": {
+			"success": "Registration: Successful",
+			"failed": "Something went wrong during registration. Please try again later."
+		},
+		"suspend": {
+			"doubleConfirm": "Are you sure you want to suspend this user?"
+		},
+		"activate": {
+			"success": "User Activation: Successful "
+		},
+		"resetPassword": {
+			"oldPassword": {
+				"empty": "Please enter your old password",
+				"valid": "Old password is not correct"
+			},
+			"newPassword": {
+				"empty": "Please enter your new password",
+				"valid": "The password must be between 11-30 characters long and must contain at least 1 uppercase, 1 lowercase, 1 number and 1 special character(-_!%&/()=?*+#,.;)."
+			},
+			"confirmPassword": {
+				"empty": "Please enter your new password",
+				"valid": "The two passwords that you entered do not match."
+			},
+			"success": "Password Reset Successfully!",
+			"fail": "Failed to change password"
+		}
+	},
+	"study": {
+		"register": {
+			"success": "Study Registration: Successful",
+			"failed": "Study Registration: Failed. Please re-attempt at a later time."
+		},
+		"landing": {
+			"enroll": "Study enrolment successful.",
+			"star": "Study added to 'My Saved Studies' list."
+		}
+	},
+	"login": {
+		"username": {
+			"required": "Please enter your username"
+		},
+		"password": {
+			"required": "Please enter your password"
+		},
+		"email": {
+			"required": "Please enter your email address"
+		},
+		"patient_tab": {
+			"role": "Login Failed, please check the login tab and try again."
+		},
+		"researcher_tab": {
+			"role": "Login Failed, please check the login tab and try again."
+		},
+		"password_error": "Username or password is incorrect, please try again or click 'Forgot Password'",
+		"forgot_password": {
+			"success": "Please check your email to reset your password",
+			"fail": "Something went wrong while attempting to send a password reset link, please try again later."
+		},
+		"suspended": "This account is no longer active, please contact an administrator for assistance"
+	},
+	"register": {
+		"username": {
+			"required": "Please enter a username"
+		},
+		"password": {
+			"required": "Please input your password.",
+			"valid": "Password guidelines: Passwords must contain 11-30 characters and include at least one letter, one special character(-_!%&/()=?*+#,.;), and one number."
+		},
+		"confirmPassword": {
+			"required": "Please confirm your password",
+			"valid": "The two passwords that you entered do not match."
+		},
+		"firstName": {
+			"required": "Please enter your first name"
+		},
+		"lastName": {
+			"required": "Please enter your last name"
+		},
+		"email": {
+			"required": "Please enter a valid email address",
+			"valid": "Please enter a valid email address."
+		},
+		"ToU": {
+			"required": "Terms of use must be read and accepted to continue."
+		}
+	},
+	"config": {
+		"general": {
+			"primaryEmail": {
+				"valid": "Primary Study Email format is not correct"
+			},
+			"investigatorEmail": {
+				"valid": "Principal Investigator Email format is not correct"
+			},
+			"name": {
+				"valid": "The study name must be between 1 and 100 characters."
+			}
+		},
+		"attribute": {
+			"length": "Value must be between 1 and 32 characters",
+			"format": "Value may only contain letters, numbers, and/or special characters in ( -_!%&/()=?*+#.;)",
+			"error": "Please check the value of the attribute",
+			"multipleChoice": {
+				"empty": "Please input at least 1 option for multiple choice attributes"
+			}
+		},
+		"settings": {
+			"apiToken": {
+				"required": "API token is required"
+			},
+			"redCap": {
+				"success": "REDCap API token updated successfully"
+			}
+		}
+	}
+}
