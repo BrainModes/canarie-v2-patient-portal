@@ -6,8 +6,6 @@ Canarie 2.0 Patient Portal
 ![React v16.13.1](https://img.shields.io/badge/react-16-orange?style=for-the-badge)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/agpl-3.0)
 
-[Project Board](https://indocconsortium.atlassian.net/projects/CPDGW?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kretar.jira.plugin.user-story-map__easy-agile-user-story-maps-web-panel)
-
 ## Getting Started
 
 ### Front-end
